@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+div.header {
+    width: 1600px;
+    height: 894px;
+    background-image: url(img/top_background.png);
+    position: absolute;
+}
+    div.icons {   
+    height: 240px;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 107px;
+}
+       div.icons div.glow {
+            width: 144px;
+            height: 79px;
+            background-image: url(img/glow.png);
+            margin-left: auto;
+            margin-right: auto;
+        }
+    div.icons div.iconContainer div.allicons {
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+        margin-top: 37px;
+        opacity: 0.4;
+        display: inline-block;
+        background-color: black;
+        cursor: url(img/cursor.cur), pointer;
+        
+    }
+     div.icons div.iconContainer div.allicons:hover{
+         opacity: 1;
+         
+     }
+        div.icons div.iconContainer a {
+            display: block;
+            text-align: center;
+            height: 100%;
+            cursor: url(img/cursor.cur), pointer;
+
+        }   
+        div.icons div.iconContainer div.iconApple {
+            margin-right: 8px;
+        }
+                div.icons div.iconContainer div.iconApple div.apple {
+                    width: 25px;
+                    height: 28px;
+                    background-image: url(img/apple.png);
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 12px;
+                }
+        div.icons div.iconContainer div.iconAndroid {
+            margin-right: 8px;
+        }
+            div.icons div.iconContainer div.iconAndroid div.android {
+                    width: 25px;
+                    height: 28px;
+                    background-image: url(img/android.png);
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 12px;
+                }
+        div.icons div.iconContainer div.iconWin {
+        }
+            div.icons div.iconContainer div.iconWin div.win {
+                    width: 25px;
+                    height: 28px;
+                    background-image: url(img/win.png);
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 12px;
+                }
+        div.arrow {
+            width: 54px;
+            height: 18px;
+            background-image: url(img/arrow.png);
+            opacity: 0.4;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        div.arrow:hover{
+            opacity: 1;
+            cursor: url(img/cursor.cur), pointer;
+        }
+
+div.feature {
+    width: 1060px;
+    height: 435px;
+    margin: auto;
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    right: 0;
+}
+    div.feature div.features {
+        width: 470px;
+        height: 170px;
+        position: absolute;
+        
+
+    }
+        div.feature div.first {
+            top: 97px;
+
+        }
+        div.feature div.second {
+            bottom: 0;
+        }
+        div.feature div.third {
+            top: 97px;
+            right: 0;
+        }
+        div.feature div.fourth {
+            bottom: 0;
+            right: 0;
+        }
+
+        div.feature span{
+            font-size: 26px;
+            font-weight: bold;
+            color: #222222;
+            text-transform: capitalize;
+
+
+        }
+        div.feature p {
+            width: 300px;
+            color: #939393;
+            margin: 0;
+            line-height: 2em;
+            position: absolute;
+            bottom: 0;
+        }
+        div.feature p.right{
+            margin-left: 170px;
+        }
+ div.iphone {
+     width: 464px;
+     height: 806px;
+     background-image: url(img/iphone.png);
+     margin: auto;
+     position: absolute;
+     bottom: -355px;
+     left: 0;
+     right: 0;  
+ }
+    div.iphone div.line{
+        width: 139px;
+        height: 114px;
+        background-image: url(img/line.png);
+        position: absolute;
+    }
+
+    div.iphone div.dot {
+        width: 19px;
+        height: 19px;
+        border-radius: 100%;
+        background-color: #F4F4F4;
+        cursor: url(img/cursor.cur), pointer;
+    }
+            div.iphone div.dot:hover{
+                background-color: #E74C3C;
+            }      
+
+        div.iphone div.rightBottomLine {
+            position: absolute;
+            bottom: 330px;
+            right: 5px;
+
+        }            
+        div.iphone div.line div.rightBottomDot {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+        }
