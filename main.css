@@ -2,8 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-
+    line-height: 2em;
+    color: #939393;
 }
+
 
 div.header {
     width: 1600px;
@@ -130,14 +132,11 @@ div.feature {
             font-weight: bold;
             color: #222222;
             text-transform: capitalize;
-
-
         }
+
         div.feature p {
             width: 300px;
-            color: #939393;
             margin: 0;
-            line-height: 2em;
             position: absolute;
             bottom: 0;
         }
@@ -183,3 +182,26 @@ div.feature {
             top: -10px;
             left: -10px;
         }
+        /* продолжим */
+        /*  what about glow*/
+div.about {
+    position: absolute;
+    top: 1230px;
+    background-color: #E8E8E8;
+    height: 430px;
+    width: 1600px;
+}
+    div.about div.textAbout{
+        width: 550px;
+        margin-left: 190px;
+        margin-top: 60px;
+    }
+    div.about div.textAbout span {
+        font-size: 36px;
+        font-weight: bold;
+        color: #222222;
+        margin-bottom: 30px;
+    }
+    ul {
+        list-style-image: url(img/bullet.png);
+    }
